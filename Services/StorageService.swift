@@ -8,7 +8,7 @@ class StorageService {
     
     static var storage = Storage.storage()
     
-    static var storageRoot = storage.reference(forURL: "gs://market-6250d.appspot.com")
+    static var storageRoot = storage.reference(forURL: "")
     
     static var storageProfile = storageRoot.child("profile")
     
